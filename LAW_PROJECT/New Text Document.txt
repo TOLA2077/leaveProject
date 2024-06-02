@@ -1,0 +1,42 @@
+CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(50) NOT NULL,
+    password VARCHAR(255) NOT NULL,  -- Use password hashing in a real-world scenario
+    name VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE laws (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    user_name VARCHAR(100) NOT NULL,
+    from_date DATE NOT NULL,
+    to_date DATE NOT NULL,
+    because TEXT NOT NULL
+);
+
+
+
+
+
+
+CREATE TABLE user_info (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    role VARCHAR(10) CHECK (role IN ('user', 'staff', 'admin')),
+    department VARCHAR(50),
+    skills VARCHAR(255),
+    username VARCHAR(50),
+    password VARCHAR(255), -- Adjust the length as needed
+    gmail VARCHAR(100),
+    phone_number VARCHAR(20)
+);
+
+
+
+
+
+
+
+
+

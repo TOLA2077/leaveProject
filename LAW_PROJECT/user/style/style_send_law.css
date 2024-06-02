@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    background: #ea0000;
+}
+
+.sidebar {
+    background: #21618C;
+    width: 17%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+.sidebar-logo{
+    height: 100vh;
+
+
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-item {
+    color: #fff; /* Set the color of the text */
+    font-size: 20px; /* Adjust font size as needed */
+    margin-top: 20px; /* Add space at the top if necessary */
+}
+
+.sidebar-subtext {
+    color: #fff; /* Set the color of the text */
+    font-size: 14px; /* Adjust font size as needed */
+    margin-top: 10px; /* Add space at the top if necessary */
+}
+ul{
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+li{
+    list-style: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-left: 17px; */
+    padding: 5px;
+    border-radius: 15px;
+}
+.menu{
+    text-decoration: none;
+    /* font-family: 'Kdam Thmor'; */
+    font-family: 'Romnea';
+    color: #D5D8DC;
+}
+li:hover{
+    background: #FDFEFE;
+}
+.menu:hover{
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+
+
+.sidebar-pf{
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px 15px;
+    background: #FDFEFE;
+}
+.user{
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* Styles for the box */
+.navbar-header1 {
+    width: 83%;
+    height: auto;
+    font-family: Khmer OS Muol Light;
+    color: rgb(241, 241, 241);
+}
+.navbar-header1 .text_navbar {
+    font-size: 25px;
+    width: 100%;
+    height: 15vh;
+    background: #FDFEFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0 6px 15px #eff1f4;
+    color: #2553dc;
+    font-family: 'Romnea';
+}
+.pp{
+    background: #000;
+}
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+   justify-content: right;
+}
+/* Content styles */
+.containera{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.active {
+    background-color: #2E86C1; /* Change this color to your desired color */
+    color: #ffffff; /* Change this color to your desired color */
+}
+.container-a {
+    margin-top: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1b84cb;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.styled-button {
+    background-color: #0c4eba;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.styled-button:hover {
+    background-color: #0e9cfa;
+}

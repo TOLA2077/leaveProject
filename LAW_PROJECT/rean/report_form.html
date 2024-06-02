@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Report Form</title>
+</head>
+<body>
+<form action="report.php" method="POST">
+    <label for="fromDate">From Date:</label>
+    <input type="date" id="fromDate" name="fromDate">
+    <br>
+    <label for="toDate">To Date:</label>
+    <input type="date" id="toDate" name="toDate">   
+    <br>
+    <label for="department">Department:</label>
+    <select id="department" name="department">
+        <option value="department1">Department 1</option>
+        <option value="department2">Department 2</option>
+        <option value="department3">Department 3</option>
+    </select>
+    <br>
+    <input type="submit" value="Generate Report">
+</form>
+</body>
+</html>

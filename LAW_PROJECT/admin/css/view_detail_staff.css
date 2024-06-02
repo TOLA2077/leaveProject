@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+   justify-content: right;
+}
+
+.sidebar {
+    background: #21618C;
+    width: 17%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+.sidebar-logo{
+    height: 100vh;
+    
+
+
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sidebar-item {
+    color: #fff; /* Set the color of the text */
+    font-size: 20px; /* Adjust font size as needed */
+    margin-top: 20px; /* Add space at the top if necessary */
+}
+
+.sidebar-subtext {
+    color: #fff; /* Set the color of the text */
+    font-size: 14px; /* Adjust font size as needed */
+    margin-top: 10px; /* Add space at the top if necessary */
+}
+ul{
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+li{
+    list-style: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-left: 17px; */
+    padding: 5px;
+    border-radius: 15px;
+}
+.menu{
+    text-decoration: none;
+    /* font-family: 'Kdam Thmor'; */
+    font-family: 'Romnea';
+    color: #D5D8DC;
+}
+li:hover{
+    background: #FDFEFE;
+}
+.menu:hover{
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #21618C; 
+    color: #ffffff;  
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    list-style: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-left: 17px; */
+    padding: 5px;
+    border-radius: 15px;
+}
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ffffff;
+    color: #000;
+
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Show the dropdown menu when the dropdown button is focused */
+  .dropdown:focus-within .dropdown-content {
+    display: block;
+  }
+
+.sidebar-pf{
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px 15px;
+    background: #FDFEFE;
+}
+
+
+
+/* contener */
+
+
+.user{
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* Styles for the box */
+.navbar-header1 {
+    width: 83%;
+    height: auto;
+    font-family: Khmer OS Muol Light;
+    color: rgb(241, 241, 241);
+}
+.navbar-header1 .text_navbar {
+    font-size: 25px;
+    width: 100%;
+    height: 15vh;
+    background: #FDFEFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0 6px 15px #808B96;
+    color: #2553dc;
+    font-family: 'Romnea';
+}
+.pp{
+    background: #000;
+}
+.containera{
+    width: 100%;
+    height: auto;
+    background-color: #D5D8DC;
+    padding: 25px;
+}
+
+.iteme{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    /* float: left; */
+}
+.item-content{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px #808B96;
+}
+.bg-red{
+    background: #ffffff;
+}
+.bg-dak{
+    background: #ffffff;
+    margin-left: 30px;
+}
+
+
+
+        .details-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 168vh;
+        }
+
+        .details-label {
+            font-weight: bold;
+            color: #21618C;
+        }
+
+        .details-value {
+            margin-bottom: 16px;
+            color: #2553dc;
+        }

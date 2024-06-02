@@ -1,0 +1,567 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+   justify-content: right;
+}
+
+.sidebar {
+    background: #cfe2e8;
+    width: 17%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+.sidebar-logo{
+    height: 100vh;
+    
+
+
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sidebar-item {
+    color: #fff; /* Set the color of the text */
+    font-size: 20px; /* Adjust font size as needed */
+    margin-top: 20px; /* Add space at the top if necessary */
+}
+
+.sidebar-subtext {
+    color: #fff; /* Set the color of the text */
+    font-size: 14px; /* Adjust font size as needed */
+    margin-top: 10px; /* Add space at the top if necessary */
+}
+ul {
+    width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+.menu-list li {
+    list-style: none;
+    width: 150px;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.menu {
+    text-decoration: none;
+    font-family: 'Romnea';
+    color: #21618C;
+    
+}
+
+li:hover {
+    background: #2471A3;
+}
+.active {
+    list-style: none;
+    width: 150px;
+    display: flex;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #21618C;
+
+}
+.active .menu{
+    list-style: none;
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #fff;
+
+
+}
+
+
+.menu:hover {
+    width: 100%;
+    color: #ffff;
+
+}
+/* Adjust icon size if needed */
+ul.menu-list li a i {
+    margin-right: 7px; /* Add spacing between icon and text */
+}
+/* Style the dropdown button */
+.dropbtn {
+    background-color: #21618C; 
+    color: #ffffff;  
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    list-style: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-left: 17px; */
+    padding: 5px;
+    border-radius: 15px;
+}
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #ffffff;
+    color: #000;
+
+  }
+.active {
+    background-color: #2E86C1; /* Change this color to your desired color */
+    color: #ffffff; /* Change this color to your desired color */
+}
+  
+
+/* Styling for the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Styling for the dropdown button */
+.dropdown-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+/* Styling for the dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Styling for the dropdown button */
+.dropdown-btn {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer}
+/* Styling for the dropdown content */
+.dropdown-content {
+     display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+/* Styling for dropdown options */
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Styling for dropdown options on hover */
+.dropdown-content a:hover {
+    background-color: #3498db;
+    color: #fff;
+}
+ /* Show the dropdown content when the button is hovered */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.sidebar-pf{
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px 15px;
+    background: #FDFEFE;
+}
+.h1{
+    color: #ffff;
+}
+/* contener */
+
+
+
+
+
+.user{
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* Styles for the box */
+.navbar-header1 {
+    width: 83%;
+    height: auto;
+    font-family: Khmer OS Muol Light;
+    color: rgb(241, 241, 241);
+}
+.navbar-header1 .text_navbar {
+    font-size: 25px;
+    width: 100%;
+    height: 15vh;
+    background: #FDFEFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0 6px 15px #E1E7EC ;
+    color: #2553dc;
+    font-family: 'Romnea';
+}
+.pp{
+    background: #000;
+}
+.containera{
+    width: 100%;
+    height: auto;
+    background-color: #ffff ;
+}
+
+
+ /* item in container */
+ .iteme {
+            display: flex;
+            justify-content: start;
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+
+        .item-content {
+            padding: 15px; /* Adjust the padding for a more compact look */
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            width: 200px; /* Adjust the width of the item */
+            height: 150px; /* Adjust the height of the item */
+        }
+
+        .bg-red {
+            background-color: #CDE3F1;
+        }
+
+        .bg-dak {
+            background-color: #CDE3F1;
+            margin-left: 9%;
+        }
+
+        .text_box {
+            color: #2553dc;
+            width: 100%; /* Make the text_box width 100% for responsiveness */
+            height: 100%; /* Make the text_box height 100% for responsiveness */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+form {
+    max-width: 95%;
+    margin: 0 auto;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 8px;
+    color: #0970d1;
+    font-size: 13px;
+}
+
+.input_field {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input_field1 {
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    margin-right: 2%;
+    width: 20%;
+    font-size: 17px;
+    font-family: Khmer OS Siemreap;
+}
+
+
+.input_field label {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    margin-right: 2%;
+    width: 20%;
+    font-size: 17px;
+    font-family: Khmer OS Siemreap;
+}
+
+.input_field input,
+.input_field select,
+.input_field textarea,
+.input_field div {
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 0.7%;
+    font-family: Khmer OS Siemreap;
+    color: #2980b9;
+}
+
+.input_field select {
+    background-color: #ffffff;
+    color: #34495e;
+}
+
+button.btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button.btn:hover {
+    background-color: #0056b3;
+}
+
+
+/* profile */
+
+.profile-details {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #21618C;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #618ead;
+}
+
+.profile-details:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+}
+
+.profile-content {
+    margin-right: 10px;
+}
+
+.profile-content img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name {
+    color: #FBFCFC;
+}
+
+/* Adjust the link color */
+.profile-details a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* profile */
+/* Your existing styles */
+
+/* Add the following media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    .container-a {
+        width: 100%;
+    }
+
+    .input_field {
+        flex-direction: column;
+
+    }
+
+    .input_field label,
+    .input_field input,
+    .input_field select {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .input_field button {
+        width: 80%;
+    }
+}
+
+
+
+        .contenta1 {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-form {
+            margin-bottom: 10px;
+        }
+
+        .search-label {
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .search-input {
+            margin-right: 10px;
+        }
+
+        .search-button {
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Khmer OS Siemreap', 'Times New Roman', Times, serif; /* Update this line */
+}
+
+#data-table th,
+#data-table td {
+    border: 1px solid #2874A6;
+    padding: 8px;
+    text-align: center;
+
+}
+
+#data-table td {
+    background: #AED6F1;
+}
+
+#data-table th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+
+        .container-a {
+            /* max-width: 90%; */
+
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            border-radius: 8px;
+            font-size: 12px;
+        }
+
+
+
+
+        .search2 {
+            justify-content: flex-end;
+            display: flex;
+        }
+    
+       .export-form {
+    display: inline-block;
+}
+
+.search-button1 {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-button1:hover {
+    background-color: #0056b3;
+}
+
+.search-button1 i {
+    margin-right: 5px;
+}
+
+        .search-button:hover {
+            background-color: #58f59a;
+        }
+    
+    
+    
+        .search1 {
+            font-family: "Khmer OS Siemreap", Arial, sans-serif;
+            font-size: 14px; /* Adjust the font size as needed */
+        }
+
+
+         
+  .table {  
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adjust the top margin as needed */
+    
+}
+
+.table th,
+.table td {
+    border: 1px solid #bfc1c2;
+    background: #e1ecf3;
+    text-align: left;
+    padding: 8px;
+    font-family: Khmer OS Siemreap;
+    text-align: center;
+    color: #1A5276;
+    
+}
+
+.table th {
+    background-color: #5f9cd9  ; /* Set the background color for table header cells */
+    color: #ffffff; /* Set the text color for table header cells */
+    
+
+}
+
+
+
+.table-success {
+    border-color: #28a745; /* Set border color for success-themed table */
+}

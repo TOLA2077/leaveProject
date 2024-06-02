@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    background: #ff0303;
+}
+
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+   justify-content: right;
+}
+
+
+
+/* Your existing CSS */
+
+.sidebar {
+    background: #21618C;
+    width: 17%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px;
+
+}
+.sidebar-logo{
+    height: 100vh;
+    
+
+
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sidebar-item {
+    color: #fff; /* Set the color of the text */
+    font-size: 20px; /* Adjust font size as needed */
+    margin-top: 20px; /* Add space at the top if necessary */
+}
+
+.sidebar-subtext {
+    color: #fff; /* Set the color of the text */
+    font-size: 14px; /* Adjust font size as needed */
+    margin-top: 10px; /* Add space at the top if necessary */
+}
+ul{
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+li{
+    list-style: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-left: 17px; */
+    padding: 5px;
+    border-radius: 15px;
+}
+.menu{
+    text-decoration: none;
+ 
+    font-family: 'Romnea';
+    color: #D5D8DC;
+}
+li:hover{
+    background: #FDFEFE;
+}
+.menu:hover{
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+
+
+
+.sidebar-pf{
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px 15px;
+    background: #FDFEFE;
+}
+.user{
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Styles for the box */
+.navbar-header1 {
+    width: 83%;
+    height: auto;
+    font-family: Khmer OS Muol Light;
+    color: rgb(241, 241, 241);
+}
+.navbar-header1 .text_navbar {
+    font-size: 25px;
+    width: 100%;
+    height: 15vh;
+    background: #FDFEFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0 6px 15px #808B96;
+    color: #2553dc;
+    font-family: 'Romnea';
+}
+.pp{
+    background: #000;
+}
+.containera{
+    width: 100%;
+    height: auto;
+    background-color: #fafcff;
+    padding: 20px;
+}
+
+.iteme{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    /* float: left; */
+}
+.item-content{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px #808B96;
+}
+.bg-red{
+    background: #ffffff;
+}
+.bg-dak{
+    background: #ffffff;
+    margin-left: 30px;
+}
+.container-a{
+    width: 82%;
+    height: auto;
+    background: #FDFEFE;
+    box-shadow: 0 5px 15px #808B96;
+    border-radius: 10px;
+    color: #2f66b4;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 18%;
+}
+.text_box{
+    color: #2553dc;
+    display: flex;
+    justify-content: center;
+}
+td, th {
+    border: 1px solid #0970d1;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+    
+  }
+  
+ /* tr:nth-child(even) {
+    background-color: #c1c6d0;
+  }  */
+  .styled-button {
+    /* Your styling goes here */
+    background-color: #007bff;
+    color: #ffffff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    /* Add more styles as needed */
+  }
+  
+  .styled-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    /* Adjust hover styles as desired */
+  }
+  
+  
+  

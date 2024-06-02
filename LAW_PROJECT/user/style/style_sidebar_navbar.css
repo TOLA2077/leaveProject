@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.body{
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    background: #ea0000;
+}
+
+
+.sidebar {
+    background: #21618C;
+    width: 17%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 10px;
+}
+.sidebar-logo{
+    height: 100vh;
+
+
+}
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-item {
+    color: #fff; /* Set the color of the text */
+    font-size: 20px; /* Adjust font size as needed */
+    margin-top: 20px; /* Add space at the top if necessary */
+}
+
+.sidebar-subtext {
+    color: #fff; /* Set the color of the text */
+    font-size: 14px; /* Adjust font size as needed */
+    margin-top: 10px; /* Add space at the top if necessary */
+}
+ul{
+    width: 100%;
+
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+
+
+
+.menu-list li{
+    list-style: none;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    /* margin-left: 17px; */
+    padding: 5px;
+    border-radius: 15px;
+}
+
+
+/* menu */
+.menu {
+    text-decoration: none;
+    font-family: 'Romnea';
+    color: #D5D8DC;
+    transition: background-color 0.3s, color 0.3s; /* Adding transition for a smooth effect */
+}
+
+li:hover {
+    background: #FDFEFE;
+}
+
+.menu:hover {
+    width: 100%;
+    color: #000;
+    text-align: center;
+}
+
+.active {
+    text-decoration: none;
+    font-family: 'Romnea';
+    color: #D5D8DC;
+    transition: background-color 0.3s, color 0.3s;
+    background-color: #ffffff !important; /* Use !important to override other styles */
+    color: #0f0202 !important;
+}
+
+/* menu */
+
+
+/* profile */
+
+.profile-details {
+    position: relative;
+    top:43.73%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #21618C;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    background-color: #618ead;
+}
+
+.profile-details:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+}
+
+.profile-content {
+    margin-right: 10px;
+}
+
+.profile-content img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name {
+    color: #FBFCFC;
+}
+
+/* Adjust the link color */
+.profile-details a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* profile */
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+.table th,
+.table td {
+    border: 1px solid #154360;
+    text-align: left;
+    padding: 8px;
+    font-family: Khmer OS Siemreap;
+}
+.table th {
+    background-color: #2f66b4; /* Set the background color for table header cells */
+    color: #ffffff; /* Set the text color for table header cells */
+}
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Set background color for even rows in the table body */
+}
+.table tbody tr:hover {
+    background-color: #d4edda; /* Set background color for hover effect on table rows */
+}
+.td {
+    background: blue;
+}
+
+
+
+.sidebar-pf{
+    width: 100%;
+    border-radius: 5px;
+    padding: 0px 15px;
+    background: #FDFEFE;
+}
+.user{
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+}
+
+/* Styles for the box */
+.navbar-header1 {
+    width: 83%;
+    height: auto;
+    font-family: Khmer OS Muol Light;
+    color: rgb(241, 241, 241);
+}
+.navbar-header1 .text_navbar {
+    font-size: 25px;
+    width: 100%;
+    height: 15vh;
+    background: #FDFEFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0 10px 10px 0px #f2f2f2;
+    color: #2553dc;
+    font-family: 'Romnea';
+
+}
+.pp{
+    background: #000;
+}
+.container1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+   justify-content: right;
+}
+/* Content styles */
+.containera{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+.active {
+    background-color: #2E86C1; /* Change this color to your desired color */
+    color: #ffffff; /* Change this color to your desired color */
+}
+.container-a {
+    margin-top: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+    font-family: Khmer OS Siemreap;
+}
+
+.label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #1b84cb;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 80%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: #0c4eba;
+}
+
+.styled-button {
+    background-color: #0c4eba;
+    color: white;
+    padding: 10px;
+    margin-left: 73%;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.styled-button:hover {
+    background-color: #0e9cfa;
+}
+
+
+
+
+
+
+
+
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.styled-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    border-radius: 5px;
+    z-index: 1;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.toast.active {
+    opacity: 1;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.text-1 {
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.progress-bar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 2px;
+    animation: progress 5s linear forwards;
+}
+
+@keyframes progress {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adjust the top margin as needed */
+}
+.table th{
+    font-family: Khmer OS Siemreap;
+    font-size: 13px;
+}
+.table td {
+    border: 1px solid #c7c5c5;
+    text-align: left;
+    padding: 8px;
+    font-size: 13px;
+    font-family: Khmer OS Siemreap;
+    background: #e1ecf3;
+}
+.table th {
+    background-color: #5f9cd9; /* Set the background color for table header cells */
+    color: #ffffff; /* Set the text color for table header cells */
+}
+.table tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Set background color for even rows in the table body */
+}
+.table tbody tr:hover {
+    background-color: #d4edda; /* Set background color for hover effect on table rows */
+}
